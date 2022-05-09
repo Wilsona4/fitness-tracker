@@ -1,6 +1,6 @@
 plugins {
-    id ("com.android.application")
-    kotlin ("android")
+    id("com.android.application")
+    kotlin("android")
     id("dagger.hilt.android.plugin")
     id("kotlin-kapt")
 }
@@ -41,7 +41,7 @@ android {
         kotlinCompilerExtensionVersion = Compose.composeCompilerVersion
     }
     packagingOptions {
-            exclude("/META-INF/{AL2.0,LGPL2.1}")
+        exclude("/META-INF/{AL2.0,LGPL2.1}")
     }
 }
 
